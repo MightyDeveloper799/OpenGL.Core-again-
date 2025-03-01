@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>OpenGL.Core.GL12</Title>
+    <Version>10.9732</Version>
+    <Authors>Charles Katzenburg</Authors>
+    <Company>Quba Systems Incorporated</Company>
+    <Copyright>Copyright © Quba Systems Inc. All rights reserved.</Copyright>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+</Project>
