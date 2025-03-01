@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>OpenGLCore</RootNamespace>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>OpenGL.Core</PackageId>
+    <Title>OpenGL.Core</Title>
+    <Company>Quba Systems Incorporated</Company>
+    <Authors>Charles Katzenburg</Authors>
+    <Copyright>Copyright © 2013-2025 Quba Systems Inc. All rights reserved.</Copyright>
+    <PackageTags>OpenGL, C#, C</PackageTags>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <AssemblyVersion>1.0.9732</AssemblyVersion>
+    <FileVersion>1.0.9732</FileVersion>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <Version>1.0.9911</Version>
+    <Platforms>AnyCPU;x64</Platforms>
+    <PackAsTool>False</PackAsTool>
+    <ToolCommandName>openglcore</ToolCommandName>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

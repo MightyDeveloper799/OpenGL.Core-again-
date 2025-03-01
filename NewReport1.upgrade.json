@@ -1,0 +1,151 @@
+{
+  "settings": {
+    "components": {
+      "code": true,
+      "binaries": true
+    },
+    "targetId": "",
+    "targetDisplayName": ".NET 9.0"
+  },
+  "analysisStartTime": "2025-03-01T14:16:14.5991816Z",
+  "analysisEndTime": "2025-03-01T14:16:43.0397906Z",
+  "privacyModeHelpUrl": "https://go.microsoft.com/fwlink/?linkid=2270980",
+  "stats": {
+    "summary": {
+      "projects": 4,
+      "issues": 1,
+      "incidents": 4,
+      "effort": 4
+    },
+    "charts": {
+      "severity": {
+        "Mandatory": 4,
+        "Optional": 0,
+        "Potential": 0,
+        "Information": 0
+      },
+      "category": {
+        "Project": 4
+      }
+    }
+  },
+  "projects": [
+    {
+      "path": "OpenGL.Core.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "a9ef3e50-b487-4079-ba53-942fd0436e18",
+          "ruleId": "Project.0002",
+          "projectPath": "OpenGL.Core.csproj",
+          "state": "Resolved",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current: net8.0\nNew: net9.0",
+              "protected": "Current: net8.0\nNew: net9.0"
+            },
+            "kind": "File",
+            "path": "OpenGL.Core.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "%USERPROFILE%\\source\\repos\\OpenGL.Core.GL11\\OpenGL.Core.GL11.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "6310ec4c-b4fa-4db6-8e67-2f1781e79e5d",
+          "ruleId": "Project.0002",
+          "projectPath": "%USERPROFILE%\\source\\repos\\OpenGL.Core.GL11\\OpenGL.Core.GL11.csproj",
+          "state": "Resolved",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current: net8.0\nNew: net9.0",
+              "protected": "Current: net8.0\nNew: net9.0"
+            },
+            "kind": "File",
+            "path": "%USERPROFILE%\\source\\repos\\OpenGL.Core.GL11\\OpenGL.Core.GL11.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "%USERPROFILE%\\source\\repos\\OpenGL.Core.GL12\\OpenGL.Core.GL12.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "46a92ef0-761c-4629-aeb2-7ac83dc3da99",
+          "ruleId": "Project.0002",
+          "projectPath": "%USERPROFILE%\\source\\repos\\OpenGL.Core.GL12\\OpenGL.Core.GL12.csproj",
+          "state": "Resolved",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current: net8.0\nNew: net9.0",
+              "protected": "Current: net8.0\nNew: net9.0"
+            },
+            "kind": "File",
+            "path": "%USERPROFILE%\\source\\repos\\OpenGL.Core.GL12\\OpenGL.Core.GL12.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "%USERPROFILE%\\source\\repos\\OpenGL.Core.GL13\\OpenGL.Core.GL13.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "9619a677-06cb-44d6-a2d3-2e47648e0bb3",
+          "ruleId": "Project.0002",
+          "projectPath": "%USERPROFILE%\\source\\repos\\OpenGL.Core.GL13\\OpenGL.Core.GL13.csproj",
+          "state": "Resolved",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current: net8.0\nNew: net9.0",
+              "protected": "Current: net8.0\nNew: net9.0"
+            },
+            "kind": "File",
+            "path": "%USERPROFILE%\\source\\repos\\OpenGL.Core.GL13\\OpenGL.Core.GL13.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "Project.0002": {
+      "id": "Project.0002",
+      "description": "Project\u0027s target framework(s) needs to be changed to the new target framework that you selected for this upgrade.\n\nDuring upgrade target framework will be adjusted to corresponding platform when applicable. In some cases project would result in multiple target frameworks after the upgrade if it was using features that now have their own platforms in moderrn .NET frameworks (windows, iOS, Android etc).",
+      "label": "Project\u0027s target framework(s) needs to be changed",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Overview of porting from .NET Framework to .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265227",
+          "isCustom": false
+        },
+        {
+          "title": ".NET project SDKs",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265226",
+          "isCustom": false
+        }
+      ]
+    }
+  }
+}
